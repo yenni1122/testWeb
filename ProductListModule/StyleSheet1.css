@@ -1,0 +1,83 @@
+﻿body {
+    margin: 0 auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navDown {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#logo {
+    float: left;
+}
+
+.navDown li {
+    float: right;
+}
+
+    .navDown li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 18px 16px;
+        text-decoration: none;
+        padding-bottom: 14px;
+    }
+
+        /* Change the link color to #111 (black) on hover */
+        .navDown li a:hover {
+            background-color: #111;
+        }
+
+.descriptionEffect {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.slideshow {
+    width: 100%;
+}
+
+.login {
+    float: right;
+}
+
+.imageButton {
+    margin: 4.5%;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 0;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #111;
+        }
+
+/* Show the dropdown menu on hover */
+.ddl:hover .dropdown-content {
+    display: block;
+    margin-top: 0;
+}
